@@ -1,4 +1,4 @@
-public class MoveZero {
+public class MoveZero283 {
     public void moveZeroes(int[] nums) {
         int insertPos = 0;
         for (int i = 0; i < nums.length; i++) {
