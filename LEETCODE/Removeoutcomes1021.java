@@ -4,7 +4,7 @@ class Solution {
         int count = 0;
 
         for (char c : s.toCharArray()) {
-            if (c == '(') {
+            if(c == '(') {
                 if (count > 0) result.append(c);
                 count++;
             } else {

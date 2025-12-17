@@ -8,6 +8,6 @@ class Solution {
             if (i > 0) ans.append(" ");
         }
 
-        return ans.toString();
+        return  ans.toString();
     }
 }
